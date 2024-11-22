@@ -10,7 +10,7 @@ class Tank:
                 self.ammo+=กระสุน
                 print("รีโหลด")
                 def fire_ammo(felf,enemy):
-                    enemy.hp -
+                    enemy.hp -=1
 
 tank1 = Tank("A1",10,5)
 tank2 = Tank("A2",5,5)
